@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #fff;
+}
+
+.uiElement {
+    margin: 20px;
+
+    width: 200px;
+    height: 35px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+
+    border: none;
+    border-radius: 3px;
+
+    outline: none;
+    cursor: pointer;
+    
+    transition: all 100ms ease-in-out;
+}
+
+#goEmbedded {
+    background-color: #e74c3c;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #000;
+}
+
+#goEmbedded:hover {
+    box-shadow: 0 0 14px 0 #333;
+    transform: scale(1.02);
+}
+
+#openingMethod {
+    color: #95a5a6;
+    margin-bottom: 0;
+}
+
+#openingMethod:hover {
+    transform: scale(1.02);
+}
