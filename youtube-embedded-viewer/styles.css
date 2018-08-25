@@ -3,6 +3,8 @@ html, body {
     padding: 0;
 
     background-color: #fff;
+
+    user-select: none;
 }
 
 .uiElement {
@@ -24,6 +26,33 @@ html, body {
     transition: all 100ms ease-in-out;
 }
 
+#openingMethod {
+    color: #95a5a6;
+    margin-bottom: 0;
+}
+
+#openingMethod:hover {
+    color: #333;
+}
+
+#closeTab {
+    background-color: #fff;
+    text-align: left;
+    color: #95a5a6;
+}
+
+.closeTab-active {
+
+}
+
+.closeTab-inactive {
+    text-decoration: line-through;
+}
+
+#closeTab:hover {
+    color: #333;
+}
+
 #goEmbedded {
     background-color: #e74c3c;
     color: #fff;
@@ -32,14 +61,5 @@ html, body {
 
 #goEmbedded:hover {
     box-shadow: 0 0 14px 0 #333;
-    transform: scale(1.02);
-}
-
-#openingMethod {
-    color: #95a5a6;
-    margin-bottom: 0;
-}
-
-#openingMethod:hover {
     transform: scale(1.02);
 }
