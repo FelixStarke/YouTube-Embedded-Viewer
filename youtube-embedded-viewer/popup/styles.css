@@ -7,8 +7,8 @@ html, body {
     user-select: none;
 }
 
-.uiElement {
-    margin: 20px;
+.ui-control {
+    margin: 10px 20px;
 
     width: 200px;
     height: 35px;
@@ -26,40 +26,34 @@ html, body {
     transition: all 100ms ease-in-out;
 }
 
-#openingMethod {
+.dropdown {
     color: #95a5a6;
-    margin-bottom: 0;
 }
-
-#openingMethod:hover {
+.dropdown:hover {
     color: #333;
 }
 
-#closeTab {
+.toggle-button {
     background-color: #fff;
     text-align: left;
     color: #95a5a6;
 }
-
-.closeTab-active {
+.toggle-button-active {
 
 }
-
-.closeTab-inactive {
+.toggle-button-inactive {
     text-decoration: line-through;
 }
-
-#closeTab:hover {
+.toggle-button:hover {
     color: #333;
 }
 
-#goEmbedded {
+.button {
     background-color: #e74c3c;
     color: #fff;
     box-shadow: 0 0 5px 0 #000;
 }
-
-#goEmbedded:hover {
+.button:hover {
     box-shadow: 0 0 14px 0 #333;
     transform: scale(1.02);
 }
